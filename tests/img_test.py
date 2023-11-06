@@ -8,7 +8,7 @@ from config.links import Links
 
 class TestProfile():
 
-    '''
+    
     def test_img(self,driver):
        sbis = SbisPage(driver,Links.SBIS_URL)
        tensor = TensorPage(driver,Links.TENSOR_URL)
@@ -41,7 +41,7 @@ class TestProfile():
         assert sbis_con.checking_the_list_of_partners() == "Петропавловск-Камчатский"
         assert len(sbis_con.check_partners()) >=1 , "No partners found!"
 
-    '''
+    
 
     
     def test_download(self,driver):

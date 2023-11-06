@@ -56,4 +56,4 @@ class BasePage():
         el = self.driver.find_element(By.XPATH,element)
         self.driver.execute_script("arguments[0].scrollIntoView();", el)
 
-
+    
